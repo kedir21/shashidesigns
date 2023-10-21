@@ -6,8 +6,9 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Teams from "./components/Teams/Teams";
 import Footer from "./components/Footer/Footer";
-import Gallary from "./components/Gallary/Gallary";
+// import Gallary from "./components/Gallary/Gallary";
 import Contact from "./components/Contact/Contact";
+import TrendingSlider from "./components/Slider";
 
 export default function Home() {
 
@@ -17,7 +18,8 @@ export default function Home() {
  <Home1 />
  <About />
  <Services />
- <Gallary />
+ {/* <Gallary /> */}
+ <TrendingSlider />
  <Teams />
  <Testimonials />
  <Contact />

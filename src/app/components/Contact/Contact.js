@@ -56,7 +56,7 @@ const Contact = () => {
                             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                         </svg>
                         <div class="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                            Sukedhara, Kathmandu , Nepal
+                            Addis Ababa, Ethiopia
                         </div>
                     </div>
                     <div class="flex mb-6 text-gray-400 dark:text-gray-400">
@@ -67,7 +67,7 @@ const Contact = () => {
                             </path>
                         </svg>
                         <div class="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                            <span> +977-014151329 ,</span> <span> +977-014151678</span>
+                            <span> +251-919891726 ,</span> <span> +251-910024300</span>
                         </div>
                     </div>
                     <div class="flex text-gray-400 dark:text-gray-400">
@@ -78,7 +78,7 @@ const Contact = () => {
                             </path>
                         </svg>
                         <div class="max-w-xl ml-4 text-lg font-semibold tracking-wide text-gray-500 dark:text-gray-400">
-                            info@gmail.com
+                            surafelldejen@gmail.com
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,6 @@
-import React from 'react'
+import female from '../../img/femaleavatar.jpeg'
+import male from '../../img/maleavatar.jpeg'
+import Image from 'next/image'
 
 const Testimonials = () => {
   return (
@@ -10,8 +12,7 @@ const Testimonials = () => {
             <div class="text-center mb-14">
                 <h1 class="mb-4 text-3xl font-bold"> Testimonials </h1>
                 <p class="max-w-xl mx-auto text-gray-500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quae quam nostrum harum non in at
-                    eaque quibusdam eum ratione.</p>
+                Below, you'll find testimonials from our valued clients.</p>
             </div>
             <div class="flex ">
                 <div class="grid grid-cols-1 gap-4 lg:gap-8 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,15 +27,15 @@ const Testimonials = () => {
                                             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
                                     </svg>
                                 </span>
-                                <img class="object-cover w-full h-full rounded-full"
-                                    src="https://i.postimg.cc/gk8KvyTN/ehsan-ahmadi-vs-Wy6nchc-Os-unsplash.jpg" alt=""/>
+                                <Image class="object-cover w-full h-full rounded-full"
+                                    src={female} alt=""/>
                             </div>
                             <div class="info">
                                 <h2 class="text-lg font-bold text-black">
-                                    Hugh Denims
+                                    Helen Atnafu
                                 </h2>
                                 <span class="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
-                                    Game Developer
+                                    Private Bussines Owner
                                 </span>
                                 <span class="flex mt-2 text-orange-500 gap-x-0.5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
@@ -73,9 +74,7 @@ const Testimonials = () => {
                             </div>
                             <div class="relative z-20 p-8">
                                 <p class="text-base leading-7 text-gray-400">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem ea
-                                    necessitatibus
-                                    voluptates aliquid rerum officiis explicabo laborum molestiae id
+                                   ለ እቤቴ የ ሚሆን በትዕዛዝ የቴሌቪዥን ማስቀመጫ ፈርኒቸር ቤት ማሰራት ፈልጌ የዲዛይን ስራውን ሻሺ ዲዛይንን በጣም አመሰግናለው።
                                 </p>
                             </div>
                         </div>
@@ -91,15 +90,14 @@ const Testimonials = () => {
                                             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
                                     </svg>
                                 </span>
-                                <img class="object-cover w-full h-full rounded-full" src="
-                                    https://i.postimg.cc/KvrSzTxg/alexandru-zdrobau-dj-RG1v-B1pw-unsplash.jpg" alt=""/>
+                                <Image class="object-cover w-full h-full rounded-full" src={female} alt=""/>
                             </div>
                             <div class="info">
                                 <h2 class="text-lg font-bold text-black">
-                                    Alexander Waters
+                                    Tizita R.
                                 </h2>
                                 <span class="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
-                                    CEO
+                                    School Teacher
                                 </span>
                                 <span class="flex mt-2 text-orange-500 gap-x-0.5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
@@ -138,9 +136,7 @@ const Testimonials = () => {
                             </div>
                             <div class="relative z-20 p-8">
                                 <p class="text-base leading-7 text-gray-400">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem ea
-                                    necessitatibus
-                                    voluptates aliquid rerum officiis explicabo laborum molestiae id
+                                    እጅግ በጣም ደስብሎኛል ለሰጣቹኝ አግልግሎት አመሰግናለው፡፡
                                 </p>
                             </div>
                         </div>
@@ -156,15 +152,15 @@ const Testimonials = () => {
                                             d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
                                     </svg>
                                 </span>
-                                <img class="object-cover w-full h-full rounded-full"
-                                    src="https://i.postimg.cc/wj9DLCJj/yunming-wang-G9f4-Enb8-XVM-unsplash.jpg" alt=""/>
+                                <Image class="object-cover w-full h-full rounded-full"
+                                    src={male} alt=""/>
                             </div>
                             <div class="info">
                                 <h2 class="text-lg font-bold text-black">
-                                    Dustin Heathens
+                                    Gutema 
                                 </h2>
                                 <span class="block text-xs font-semibold text-blue-500 uppercase dark:text-blue-300">
-                                    Mind Controller
+                                    Work in Office
                                 </span>
                                 <span class="flex mt-2 text-orange-500 gap-x-0.5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
@@ -203,9 +199,7 @@ const Testimonials = () => {
                             </div>
                             <div class="relative z-20 p-8">
                                 <p class="text-base leading-7 text-gray-400">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem ea
-                                    necessitatibus
-                                    voluptates aliquid rerum officiis explicabo laborum molestiae id
+                                    ለግቤ የሰራቹልኝ ላንድ ስኬፕ ዲዛይን ያምራል ፣ አመሰግናለው፡፡
                                 </p>
                             </div>
                         </div>

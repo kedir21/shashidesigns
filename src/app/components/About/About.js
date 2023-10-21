@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <div class="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
               <div class="pl-4 mb-6 border-l-4 border-blue-500 ">
-                <span class="text-sm text-gray-600 uppercase dark:text-gray-400">
+                <span class="text-sm text-gray-600 uppercase dark:text-grey-400">
                   Who we are?
                 </span>
                 <h1 class="mt-2 text-3xl font-black text-gray-700 md:text-5xl">

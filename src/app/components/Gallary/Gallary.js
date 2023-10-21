@@ -4,6 +4,8 @@ import img2 from '../../img/img2.jpg'
 import img3 from '../../img/img3.png'
 import img4 from '../../img/img4.png'
 import img5 from '../../img/img5.png'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel'; 
 
 const Gallary = () => {
   return (
@@ -11,7 +13,11 @@ const Gallary = () => {
 
    <section class="flex items-center bg-gray-100 font-poppins " id='projects'>
         <div class="container justify-center flex-1 px-4 py-4 mx-auto text-left lg:py-10 ">
-            <div class="mx-auto max-w-7xl py-11">
+
+            
+
+
+            {/* <div class="mx-auto max-w-7xl py-11">
                 <h2 class="pb-4 text-4xl font-bold text-center text-gray-800">
                     Our Latest Projects
                 </h2>
@@ -175,7 +181,9 @@ const Gallary = () => {
                     </div>
                     
                 </div>
-            </div>
+            </div> */}
+
+
         </div>
     </section>
 
