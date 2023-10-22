@@ -33,7 +33,7 @@ import img19 from "../img/img19.jpg";
 
 const Slider = () => {
   return (
-    <div className=" bg-slate-300 h-full p-7">
+    <div className=" bg-slate-300 h-full p-7" id="projects">
       <h1 className="text-center text-5xl  font-bold py-20">Our Projects</h1>
 
       <Swiper
